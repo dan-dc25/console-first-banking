@@ -3,13 +3,11 @@
   <groupId>com.revature</groupId>
   <artifactId>project0</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Console First Banking</name>
-  <description>Banking Application</description>
   
-  <properties>
+  	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
+  	</properties>
   
   	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->

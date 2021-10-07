@@ -4,10 +4,10 @@ public class Account {
 	
 	private double deposit;
 	private double balance;
+	private double cardLimit;
 	private String username;
 	private String password;
 	private boolean isActive;
-	private boolean inJoinAccount;
 	
 	public Account() {
 		super();
@@ -21,12 +21,57 @@ public class Account {
 	}
 	
 	//To create a savings account
-	public Account(String username, Strig password, double deposit) {
+	public Account(String username, String password, double deposit) {
 		this();
-		this.username = username;
-		this.password = password;
 		this.deposit = deposit;
 	}
 	
+	public double getDepoist() {
+		return deposit;
+	}
+	
+	public void setDeposit(double deposit) {
+		this.deposit = deposit;
+	}
+	
+	public double getBalance() {
+		return balance;
+	}
+	
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+	public double getCardLimit() {
+		return cardLimit;
+	}
+	
+	public void setCardLimit(double cardLimit) {
+		this.cardLimit = cardLimit;
+	}
+	
+	public String getAddress() {
+		return address;
+	}
+	
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	public String getUsername() {
+		return username;
+	}
+	
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	
+	public String getPassword() {
+		return password;
+	}
+	
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	
 }
